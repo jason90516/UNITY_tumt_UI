@@ -409,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 640, y: -137.15785}
+  m_AnchoredPosition: {x: 640, y: -51.111706}
   m_SizeDelta: {x: 1235.9, y: 91.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425505013
@@ -820,8 +820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AM: {fileID: 24100000, guid: 06f7d5202a5bfd94b8c95bf1a6c01475, type: 2}
-  LoaddingText: {fileID: 0}
-  loadung: {fileID: 0}
+  LoaddingText: {fileID: 1531741628}
+  loadung: {fileID: 60082669}
 --- !u!1 &756994978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1204,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1126265244}
+        m_MethodName: set_isStatic
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 747645213}
         m_MethodName: Play
         m_Mode: 1
@@ -1415,7 +1426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 640, y: -339.35785}
+  m_AnchoredPosition: {x: 640, y: -253.3117}
   m_SizeDelta: {x: 1235.9, y: 91.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016793043
@@ -1820,8 +1831,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
-  m_SizeDelta: {x: 0, y: -120}
+  m_AnchoredPosition: {x: 0, y: 23}
+  m_SizeDelta: {x: 0, y: -325.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126265246
 MonoBehaviour:
@@ -2835,7 +2846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 640, y: -238.25786}
+  m_AnchoredPosition: {x: 640, y: -152.2117}
   m_SizeDelta: {x: 1235.9, y: 91.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547248671
