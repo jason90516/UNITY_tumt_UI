@@ -44,7 +44,7 @@ public class GameControl_AudioControl : MonoBehaviour {
 
     IEnumerator Change()
     {
-        AsyncOperation ao = SceneManager.LoadSceneAsync("Assault_Rifle_01_Demo");
+        AsyncOperation ao = SceneManager.LoadSceneAsync("遊戲場景");
         ao.allowSceneActivation = false;
         while (ao.isDone == false)
         {
