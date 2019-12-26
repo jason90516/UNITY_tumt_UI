@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/SAYAJIN.unity
     guid: dce79814b8231cb4d973ab410ff1ebb6
   - enabled: 1
-    path: Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Demo.unity
-    guid: 5923bb0107620bc46b2727a5d3f12141
+    path: "Assets/\u904A\u6232\u5834\u666F.unity"
+    guid: b27aa747cf7fae148a5a29b72872e007
   m_configObjects: {}

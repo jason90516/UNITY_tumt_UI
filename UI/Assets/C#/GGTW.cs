@@ -30,6 +30,7 @@ public class GGTW : MonoBehaviour
             HP -= d;
             HP -= 10;
             hpslider.value = HP;
+            if(HP <= 0) Dead();
         }
 
         if (other.tag == "寶石")
@@ -76,6 +77,19 @@ public class GGTW : MonoBehaviour
 
         Time.timeScale = 0.0f;
         Cursor.lockState = CursorLockMode.None;
+    }
+
+    void Dead()
+    {
+        final.SetActive(true);
+        textcurrent.text = "TIME : " + gametime.ToString("0.00");
+
+        textBest.text = "BEST : " + PlayerPrefs.GetFloat("最佳紀錄").ToString("0.00");
+
+        Time.timeScale = 0.0f;
+        Cursor.lockState = CursorLockMode.None;
+        GetComponent<FPSControllerLPFP.FpsControllerLPFP>().enabled = false;
+        enabled = false;
     }
 
     public void RE()
